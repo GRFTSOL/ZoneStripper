@@ -57,7 +57,7 @@ Class Form1
     
     Private Sub UpdateZones(pFolder As IShellItem, NewZone As URLZONE)
     Dim pEnum As IEnumShellItems
-    Dim dwAttrib As SFGAO_Flags
+    Dim dwAttrib As SFGAOF
     Dim pChild As IShellItem
     Dim pc As Long
     Dim hr As Long
